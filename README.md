@@ -9,6 +9,16 @@ It was originally designed in response to a lot of rule breaking we were getting
 
 ## How to use
 This bot has been designed specifically for the TDT server so direct use on other servers is not recommended. This repository is intended as a learning tool where I can show what I have done and you are free to take that and use it in your own projects.
+### Setup
+Make sure that these parts (found in the EDDIE_CONSTANCE.py file) are setup for your server: 
+
+- EDDIE_BOT_KEY = Your bot's key
+- GUILD_ID = Your server's ID
+- SUPPORT_AND_NEW_CHANNEL_ID = ID for the channel for new members and moderators
+- SUPPORT_NOTIFY_CHANNEL_ID = ID for channel where moderators will see new member reports
+- STORAGE_NOTIFICATION_CHANNEL_ID = ID for channel where storage warnings will be sent
+
+Everything else in EDDIE_CONSTANTS.py should be changed to meet your specific server needs. More comments in the code for what each component does coming soon-ish, in the mean time, Good Luck!
 
 ## Current Features
 ### New member introduction
