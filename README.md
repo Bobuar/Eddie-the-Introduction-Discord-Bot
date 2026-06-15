@@ -10,7 +10,7 @@ It was originally designed in response to a lot of rule breaking we were getting
 ## How to use
 This bot has been designed specifically for the TDT server so direct use on other servers is not recommended. This repository is intended as a learning tool where I can show what I have done and you are free to take that and use it in your own projects.
 ### Setup
-Make sure that these parts (found in the EDDIE_CONSTANCE.py file) are setup for your server: 
+Make sure that these parts (found in the EDDIE_CONSTANTS.py file) are setup for your server: 
 
 - EDDIE_BOT_KEY = Your bot's key
 - GUILD_ID = Your server's ID
@@ -47,7 +47,7 @@ The process:
 
 ### Storage Notifications
 If the storage of the server goes below 100GB, a notification is sent to Bobuar to sort it out. 
-Because our members like to play Minecraft so much 😆, our backups for the Survival server are quite large. Before this feature of Eddie and before we setup offsite backups, this caused the server to run out of storage on multiple occasions, causing players work to not be saved, which is very frustrating. This warning prevents this from happening again 🥳. 
+Because our members like to play Minecraft so much 😆, our backups for the Survival server are quite large. Before this feature of Eddie and before we setup offsite backups, this caused the server to run out of storage on multiple occasions, causing players work to not be saved, which is very frustrating. So with this warning it shouldn't run out of storage again 🥳. 
 
 ## Known Issues
 ### Deleting Chat channels when members leave
